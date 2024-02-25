@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+.section-hero-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 3.5rem; */
+  height: 100vh;
+  background-color: rgb(222, 16, 50);
+}
+.section-hero {
+  padding: 0 8rem;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px black;
+}
+.hero-header {
+  padding-top: 3rem;
+}
+.LOGO-img {
+  height: 3rem;
+  width: 5rem;
+}
+.hero-logo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-header {
+  color: rgb(222, 16, 50);
+}
+li:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 0 2rem;
+  background-color: rgb(222, 16, 50);
+}
+.navigation {
+  font-size: 1.5rem;
+  gap: 5rem;
+  display: flex;
+  list-style: none;
+}
+.logo-nav-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-btn {
+  border-style: none;
+  background-color: rgb(222, 16, 50);
+  color: #fff;
+  padding: 0 3rem;
+  border-radius: 5rem;
+}
+.details-btn,
+.nav-btn:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.wedding-details {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+.couple-img {
+  border-radius: 50%;
+  width: 26rem;
+  height: 26rem;
+}
+.details-header .header {
+  font-size: 6rem;
+}
+.details-header .inner-1 {
+  margin-left: 1rem;
+}
+.details-header .inner-2 {
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+}
+.header-description p {
+  color: #555;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.details-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-style: none;
+  background-color: rgb(222, 16, 50);
+  color: #fff;
+  border-radius: 5rem;
+  margin-left: 1rem;
+}
+.header-description {
+  max-width: 30rem;
+}
+.decoration-img {
+  border-radius: 50%;
+  width: 30rem;
+  height: 30rem;
+}
+.plan-bride {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+.hosts-view h1 {
+  font-size: 4rem;
+}
+.hosts-view {
+  padding-bottom: 3.5rem;
+}
+.venues h1 {
+  font-size: 4rem;
+}
+.other {
+  color: rgb(222, 16, 50);
+}
+.decoration-1 {
+  border-radius: 40%;
+  width: 20rem;
+  height: 23rem;
+}
+.decoration-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 20rem;
+}
+.decoration-header {
+  font-size: 2rem;
+}
+.decoration-content {
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+a {
+  font-size: 1.2rem;
+  color: rgb(222, 16, 50);
+}
+.bride-img {
+  border-radius: 40%;
+  width: 20rem;
+  height: 23rem;
+}
+.bride-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 20rem;
+}
